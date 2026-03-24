@@ -1,0 +1,16 @@
+GET http://localhost:3000/users?auth=true
+Accept: application/json
+
+###
+
+GET http://localhost:3000/users/1?auth=true
+Accept: application/json
+
+###
+
+POST http://localhost:3000/users?auth=true
+Content-Type: application/json
+
+{
+  "name": "Иван"
+}
